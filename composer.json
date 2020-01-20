@@ -1,0 +1,23 @@
+{
+  "name": "scaytrase/package-versions-fallback-issue",
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">= 7.4",
+    "symfony/symfony": "^5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5",
+    "infection/infection": "^0.15"
+  },
+  "autoload": {
+    "psr-4": {
+      "ScayTrase\\PackageVersions\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ScayTrase\\PackageVersions\\Tests\\": "tests/"
+    }
+  }
+}
